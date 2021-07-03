@@ -2,11 +2,11 @@
 	"name": "AzureSqlDatabase1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"type": "AzureSqlDatabase",
 		"annotations": [],
+		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=techbrothersit.database.windows.net;initial catalog=TechbrothersIT;user id=tbuser",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFTSEFIWkFELUFERl9hODE1OGEwNS00MjY2LTQ5ZGUtYjA4MC0yYjc2MWE1NTBlNDciDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkFTSEFIWkFELUFERi1HSVRfN2FiMWE4MGQtODllMi00YmI3LWJlNDgtN2E3MTBmYWNlZDEzIg0KfQ=="
 		}
 	}
 }
